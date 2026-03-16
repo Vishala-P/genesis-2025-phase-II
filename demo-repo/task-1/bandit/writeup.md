@@ -35,8 +35,7 @@ Password found: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 Bandit Level 6
 Command used: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 Command used: cat
-Password found: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-
+Password found: morbNTDkSW6jIlUc0ymOdMaLnOlFV
 Bandit Level 7
 Command used: ls
 Command used: cat
@@ -61,4 +60,28 @@ Bandit Level 11
 Command used: cat data.txt
 Command used: cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 Password found: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+Bandit Level 12
+Command used: mkdir /tmp/vishala
+Command used: cd /tmp/vishala
+Command used: cp ~/data.txt .
+Command used: xxd -r data.txt data
+Command used: file data
+Command used: mv data data.gz
+Command used: gunzip data.gz
+Command used: mv data data.bz2
+Command used: bunzip2 data.bz2
+Command used: mv data data.tar
+Command used: tar -xf data.tar
+Command used: mv data5.bin data5.tar
+Command used: tar -xf data5.tar
+Command used: mv data6.bin data6.bz2
+Command used: bunzip2 data6.bz2
+Command used: mv data6 data6.tar
+Command used: tar -xf data6.tar
+Command used: mv data8.bin data8.gz
+Command used: gunzip data8.gz
+Command used: cat data8
+Password found: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
 
