@@ -18,3 +18,21 @@ Command used: cd
 Command used: ls -a
 Command used: cat ...Hiding-From-You
 Password found: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+Bandit Level 4
+Command used: ls
+Command used: cd inhere
+Command used: cat./-file*
+Password found: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+Bandit Level 5
+Command used: ls
+Command used: cd inhere
+Command used: find .-size 1033c
+Command used: cat
+Password found: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+Bandit Level 6
+Command used: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+Command used: cat
+Password found: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
