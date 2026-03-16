@@ -47,3 +47,8 @@ Command used: ls
 Command used: sort data.txt | uniq -u
 Password found: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
+Bandit Level 9
+Command used: ls
+Command used: strings data.txt | grep =
+Password found: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
