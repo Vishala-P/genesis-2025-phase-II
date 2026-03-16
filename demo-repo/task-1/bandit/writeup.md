@@ -36,3 +36,8 @@ Bandit Level 6
 Command used: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 Command used: cat
 Password found: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+Bandit Level 7
+Command used: ls
+Command used: cat
+Password found: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
