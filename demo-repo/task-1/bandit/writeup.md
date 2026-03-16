@@ -41,3 +41,9 @@ Bandit Level 7
 Command used: ls
 Command used: cat
 Password found: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+Bandit Level 8
+Command used: ls
+Command used: sort data.txt | uniq -u
+Password found: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
