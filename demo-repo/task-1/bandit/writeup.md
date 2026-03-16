@@ -52,3 +52,8 @@ Command used: ls
 Command used: strings data.txt | grep =
 Password found: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
+Bandit Level 10
+Command used: ls
+Command used: base64 -d data.txt
+Password found: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
