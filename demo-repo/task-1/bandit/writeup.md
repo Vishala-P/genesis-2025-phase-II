@@ -11,3 +11,10 @@ Bandit Level 2
 Command used: ls
 Command used: cat "--spaces in this filename--"
 Password found: MNk8KNH3Usiio41PRUEoDFPqfxLPLSmx
+
+Bandit Level 3
+Command used: ls
+Command used: cd
+Command used: ls -a
+Command used: cat ...Hiding-From-You
+Password found: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
