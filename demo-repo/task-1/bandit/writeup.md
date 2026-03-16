@@ -57,3 +57,8 @@ Command used: ls
 Command used: base64 -d data.txt
 Password found: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
+Bandit Level 11
+Command used: cat data.txt
+Command used: cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+Password found: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
