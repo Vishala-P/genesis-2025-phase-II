@@ -102,3 +102,10 @@ Bandit Level 15
 
 Command used: openssl s_client -connect localhost:30001
 Password found: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+Bandit Level 16
+
+Command used: nmap -p 31000-32000 localhost
+Command used: openssl s_client -connect localhost:31790 -quiet
+Command used: ssh -i key.private bandit17@bandit.labs.overthewire.org -p 2220
+Password found: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
