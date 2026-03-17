@@ -84,4 +84,11 @@ Command used: gunzip data8.gz
 Command used: cat data8
 Password found: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
+Bandit Level 13
 
+Command used: ls
+Command used: cat sshkey.private
+Command used: chmod 600 sshkey.private
+Command used: ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+Command used: cat /etc/bandit_pass/bandit14
+Password found: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
