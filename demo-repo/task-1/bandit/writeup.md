@@ -92,3 +92,8 @@ Command used: chmod 600 sshkey.private
 Command used: ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 Command used: cat /etc/bandit_pass/bandit14
 Password found: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+Bandit Level 14
+
+Command used: nc localhost 30000
+Password found: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
