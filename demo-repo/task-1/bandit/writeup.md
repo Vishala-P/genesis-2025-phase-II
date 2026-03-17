@@ -109,3 +109,9 @@ Command used: nmap -p 31000-32000 localhost
 Command used: openssl s_client -connect localhost:31790 -quiet
 Command used: ssh -i key.private bandit17@bandit.labs.overthewire.org -p 2220
 Password found: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+
+Bandit Level 17
+
+Command used: ls
+Command used: diff passwords.old passwords.new
+Password found: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
