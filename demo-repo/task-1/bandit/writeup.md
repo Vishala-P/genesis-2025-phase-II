@@ -141,3 +141,9 @@ Command used: ls
 Command used: ./bandit20-do cat /etc/bandit_pass/bandit20
 Password found: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
+Bandit Level 20
+
+Command used: nc -l -p 12345
+Command used: ./suconnect 12345
+Password found: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
