@@ -115,3 +115,9 @@ Bandit Level 17
 Command used: ls
 Command used: diff passwords.old passwords.new
 Password found: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+Bandit Level 18
+
+Command used: ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
+Password found: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
