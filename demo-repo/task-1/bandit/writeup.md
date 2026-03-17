@@ -97,3 +97,8 @@ Bandit Level 14
 
 Command used: nc localhost 30000
 Password found: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+Bandit Level 15
+
+Command used: openssl s_client -connect localhost:30001
+Password found: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
