@@ -1,20 +1,19 @@
 Git Exercises
 
-1. Checked repository status
-Command used:
-git status
+1. Saving Your Work
 
-2. Added files to staging area
-Command used:
-git add .
-
-3. Committed changes
-Command used:
-git commit -m "Completed git exercises"
-
-4. Pushed changes to GitHub
-Command used:
-git push
-
-Explanation:
-These commands are used to track changes in a repository and upload them to GitHub.
+Command used: git init
+Command used: touch bug.txt
+Command used: nano bug.txt
+Command used: git add .
+Command used: git commit -m "Initial commit"
+Command used: nano bug.txt
+Command used: git stash
+Command used: nano bug.txt
+Command used: git add bug.txt
+Command used: git commit -m "Fixed bug"
+Command used: git stash pop
+Command used: nano bug.txt
+Command used: git add bug.txt
+Command used: git commit -m "Finished work"
+Result: Used git stash to temporarily save work, fixed a bug, restored changes, and completed the task successfully
